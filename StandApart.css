@@ -1,0 +1,47 @@
+.standapart {
+  background: linear-gradient(135deg, #0a2a5e 0%, #1a4a8a 100%);
+  padding: 80px 0;
+}
+.apart-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 22px;
+  margin-top: 50px;
+}
+.apart-card {
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: all .3s;
+}
+.apart-card:hover {
+  background: rgba(255,255,255,.14);
+  transform: translateY(-7px);
+}
+.apart-icon {
+  width: 66px; height: 66px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+  font-size: 26px;
+}
+.ai-teal   { background: rgba(0,212,212,.15);   color: var(--teal-light); }
+.ai-yellow { background: rgba(245,166,35,.15);  color: var(--yellow); }
+.ai-purple { background: rgba(123,104,238,.15); color: #b39dff; }
+.ai-green  { background: rgba(76,175,130,.15);  color: #6dd4a5; }
+.apart-card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.apart-card p {
+  font-size: 13px;
+  color: rgba(255,255,255,.68);
+  line-height: 1.65;
+  margin: 0;
+}
